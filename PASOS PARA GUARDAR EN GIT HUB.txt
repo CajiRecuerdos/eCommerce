@@ -1,0 +1,19 @@
+****PASOS PARA USAR GIT
+git init
+git add .
+git branch -M main
+git remote add origin https://github.com/DjeanG0/Ciclo3.git
+
+****PASOS PARA SINCRONIZAR CON GIT HUB
+git add .
+git commit -m "Sincronizando con GitHub"
+git push -u origin main
+
+****PASOS PARA TRABAJAR EN UNA NUEVA RAMA
+git checkout -b agregar_opcional /Crea una rama opcional
+git add .
+git commit -m "modificacion opcional"
+git push -u origin agregar_opcional  /Guarda la rama de una mod opcional
+git checkout main  /Regresa a la carpeta main
+git merge agregar_opcional /Fusiona el archivo opcional con el main
+git push -u origin main	 /Guarda los cambios en git hub
