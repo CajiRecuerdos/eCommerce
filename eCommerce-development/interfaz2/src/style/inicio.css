@@ -1,0 +1,108 @@
+.navbar-container{
+
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.inicio-bienvenido{
+    margin-top: 30px;
+    
+}
+.inicio-nav{
+    margin-bottom: 50px; 
+}
+
+.logo-img {
+    max-height: 50px;
+    margin: 5px;
+}
+
+.login-img{
+    max-height: 40px;
+    margin-top: 9px;
+}
+
+.bienvenida{
+    height: 150px;
+    
+    margin-top: 20px;
+    border-radius: 20px;
+    background-image: url("https://www.elinvernaderocreativo.com/wp-content/uploads/2020/03/582441-PM4W93-265.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.bienvenida-container{
+    margin-top: 30px;
+    height: 300px;
+    backdrop-filter: blur(2px);
+    padding-top: 60px;
+}
+
+
+h1{
+    color: #ffffff;
+    text-shadow: 3px 1px #514747;
+    margin-top: 40px;
+}
+
+.historia-container{
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+.call{
+    margin-top: 60px;
+    border-radius: 20px;
+    background-image: url("https://www.packsize.com/wp-content/uploads/2015/05/white-paper-05a-1.jpg");
+    background-color: #cccccc;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.boton-call{
+    padding: 15px;
+    margin-top: 70px;
+}
+
+
+.container-equipo{
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+.container-footer {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 3px; 
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.icon-redes{
+    height: 30px;
+    margin: 3px;
+    margin-top: 20px;
+}
+
+.h5-footer{
+    color: #000000;
+    margin-top: 20px;
+}

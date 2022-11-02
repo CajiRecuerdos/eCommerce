@@ -1,0 +1,42 @@
+.productsContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,0fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 75px;
+    justify-items: center;
+    justify-content: center;
+
+    .product{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        gap: 10px;
+
+        img{
+            width: 100%;
+        } 
+        p{
+            font-weight: bold;
+            text-align: center;            
+        }
+
+        button {
+            border: none;
+            border-radius: 3px;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-family: "Segoe UI";
+            font: oblique bold 90% cursive;
+            margin-top: 5px;
+
+        }
+        button:hover {
+            background-color: #cecece;
+            border: white 2px groove;
+
+        }
+    }
+}
