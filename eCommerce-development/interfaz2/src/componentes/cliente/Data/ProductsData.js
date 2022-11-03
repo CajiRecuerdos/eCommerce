@@ -1,6 +1,6 @@
 export const ProductsData = [
     {
-        id: 2,
+        id: 1,
         price: 1900,
         amount: 0,
         name: "Caja 1",
@@ -9,7 +9,7 @@ export const ProductsData = [
 
     },
     {
-        id: 3,
+        id: 2,
         price: 2300,
         amount: 0,
         name: "Caja 2",
@@ -18,7 +18,7 @@ export const ProductsData = [
 
     },
     {
-        id: 4,
+        id: 3,
         price: 2500,
         amount: 0,
         name: "Caja 3",
@@ -27,7 +27,7 @@ export const ProductsData = [
     
     },
     {
-        id: 5,
+        id: 4,
         price: 2600,
         amount: 0,
         name: "Caja 4",
@@ -36,7 +36,7 @@ export const ProductsData = [
 
     },
     {
-        id: 6,
+        id: 5,
         price: 2800,
         amount: 0,
         name: "Caja 5",
@@ -45,7 +45,7 @@ export const ProductsData = [
 
     },
     {
-        id: 7,
+        id: 6,
         price: 3000,
         amount: 0,
         name: "Caja 6",
@@ -54,7 +54,7 @@ export const ProductsData = [
 
     },
     {
-        id: 8,
+        id: 7,
         price: 3400,
         amount: 0,
         name: "Caja 7",
@@ -63,7 +63,7 @@ export const ProductsData = [
 
     },
     {
-        id: 9,
+        id: 8,
         price: 3800,
         amount: 0,
         name: "Caja 8",
@@ -72,7 +72,7 @@ export const ProductsData = [
 
     },
     {
-        id: 10,
+        id: 9,
         price: 4000,
         amount: 0,
         name: "Caja 9",
@@ -81,7 +81,7 @@ export const ProductsData = [
 
     },
     {
-        id: 11,
+        id: 10,
         price: 4500,
         amount: 0,
         name: "Caja 10",
@@ -90,7 +90,7 @@ export const ProductsData = [
 
     },
     {
-        id: 12,
+        id: 11,
         price: 4500,
         amount: 0,
         name: "Caja 11",
@@ -99,7 +99,7 @@ export const ProductsData = [
 
     },
     {
-        id: 13,
+        id: 12,
         price: 4900,
         amount: 0,
         name: "Caja 12",
@@ -108,7 +108,7 @@ export const ProductsData = [
 
     },
     {
-        id: 14,
+        id: 13,
         price: 5100,
         amount: 0,
         name: "Caja 13",
@@ -117,7 +117,7 @@ export const ProductsData = [
 
     },
     {
-        id: 15,
+        id: 14,
         price: 5600,
         amount: 0,
         name: "Caja 14",
@@ -126,7 +126,7 @@ export const ProductsData = [
 
     },
     {
-        id: 16,
+        id: 15,
         price: 4500,
         amount: 0,
         name: "Caja 15",
@@ -135,7 +135,7 @@ export const ProductsData = [
 
     },
     {
-        id: 17,
+        id: 16,
         price: 4600,
         amount: 0,
         name: "Caja 16",
@@ -144,7 +144,7 @@ export const ProductsData = [
 
     },
     {
-        id: 18,
+        id: 17,
         price: 4100,
         amount: 0,
         name: "Caja 17",
@@ -153,7 +153,7 @@ export const ProductsData = [
 
     },
     {
-        id: 19,
+        id: 18,
         price: 2500,
         amount: 0,
         name: "Caja 18",
@@ -162,7 +162,7 @@ export const ProductsData = [
 
     },
     {
-        id: 20,
+        id: 19,
         price: 5200,
         amount: 0,
         name: "Caja 19",
@@ -171,7 +171,7 @@ export const ProductsData = [
 
     },
     {
-        id: 21,
+        id: 20,
         price: 3800,
         amount: 0,
         name: "Caja 20",
