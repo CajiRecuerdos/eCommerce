@@ -18,6 +18,7 @@ export function MovieCard({ movie }) {
         <p className="card-text">{movie.overview}</p>
         <p className="card-text">{movie.stock}</p>
       </div>
+      <button>Modificar</button>
     </div>
         
   );

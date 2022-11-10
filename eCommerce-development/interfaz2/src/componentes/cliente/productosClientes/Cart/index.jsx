@@ -1,5 +1,5 @@
-import React, {useContext, useEffect, useState } from "react";
-import {CartContext} from "../Context/CartContext";
+import React, { useContext, useEffect, useState } from "react";
+import { CartContext } from "../Context/CartContext";
 import ItemCart from "../ItemCart";
 import styles from './styles.module.scss'
 
@@ -22,13 +22,13 @@ const Cart = () => {
   );
   return (
     <div className={styles.cartContainer}>
-      <div 
+      <div
         onClick={() => {
           setCartOpen(!cartOpen);
-        }} 
-         className={styles.buttonCartContainer}
-        >
-         <div className={styles.buttonCart}>
+        }}
+        className={styles.buttonCartContainer}
+      >
+        <div className={styles.buttonCart}>
           {!cartOpen ? (
             <svg
               className={styles.open}
@@ -70,13 +70,13 @@ const Cart = () => {
         <div className={styles.cart}>
           <h2>Tu carrito</h2>
 
-          {cartItems.Length === 0 ? <p className={styles.cartVacio}>Tu carrito está vacio</p> 
-          : (
-            <div className={styles.productsContainer}>
-              {cartItems.map((item, i) => (
-              <ItemCart key={i} item={item} />
-            ))}</div>
-          )}
+          {cartItems.Length === 0 ? <p className={styles.cartVacio}>Tu carrito está vacio</p>
+            : (
+              <div className={styles.productsContainer}>
+                {cartItems.map((item, i) => (
+                  <ItemCart key={i} item={item} />
+                ))}</div>
+            )}
 
           <h2 className={styles.total}>Total a pagar: ${total}</h2>
         </div>
