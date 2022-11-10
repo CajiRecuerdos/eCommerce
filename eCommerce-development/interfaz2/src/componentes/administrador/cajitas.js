@@ -9,13 +9,14 @@ export function Cajitas() {
 
         <>
             <AdminNavbar></AdminNavbar>
+            <div className="container">
+                <ul className={styles.moviesGrid}>
+                    {movies.map((movie) => (
+                        <MovieCard key={movie.id} movie={movie} />
+                    ))}
 
-            <ul className={styles.moviesGrid}>
-                {movies.map((movie) => (
-                    <MovieCard key={movie.id} movie={movie} />
-                ))}
-
-            </ul>
+                </ul>
+            </div>
         </>
     );
 }

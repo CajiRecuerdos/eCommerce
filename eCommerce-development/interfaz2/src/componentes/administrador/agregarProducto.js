@@ -7,9 +7,9 @@ export default function AgregarProducto() {
     return (
         <>
             <AdminNavbar></AdminNavbar>
-            <div className="container card shadow mt-5 w-25 p-4">
+            <div className="container card shadow mt-5 w-50 p-4">
 
-                    <h2 className="mb-4">Agrega un producto</h2>
+                    <h2 className="mb-4 text-center">Agrega un producto</h2>
 
                 <Form>
                     <Form.Group className="mb-3 w-50" controlId="formBasicEmail">
