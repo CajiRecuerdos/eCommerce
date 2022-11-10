@@ -11,6 +11,7 @@ import {CartProvider} from './componentes/cliente/productosClientes/Context/Cart
 import { Cajitas } from './componentes/administrador/cajitas';
 import AgregarProducto from './componentes/administrador/agregarProducto';
 import Ventas from './componentes/administrador/ventas';
+import ModificarProducto from './componentes/administrador/adminModificarProducto';
 //import {Tablas} from './componentes/administrador/Tablas';//
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,6 +27,7 @@ root.render(
       <Route path="cajitas" element={<Cajitas />} />
       <Route path="agregarproducto" element={<AgregarProducto />} />
       <Route path="ventas" element={<Ventas />} />
+      <Route path="modificar-producto" element={<ModificarProducto />} />
 
     
       </Routes>
