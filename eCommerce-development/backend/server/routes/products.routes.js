@@ -5,8 +5,8 @@ const router = Router();
 
 router.get('/products', getProducts);
 router.post('/products', createProducts);
-router.put('/products', updateProducts);
-router.delete('/products', deleteProducts);
+router.put('/products/:id', updateProducts);
+router.delete('/products/:id', deleteProducts);
 
 router.get('/products/:id', getProducts);
 
