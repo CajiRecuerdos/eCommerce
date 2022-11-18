@@ -1,5 +1,6 @@
 import express from 'express';
 import productsRoutes from './routes/products.routes.js';
+import clientRoutes from "./routes/client.routes.js";
 import fileUpload from 'express-fileupload';
 
 const app = express();
@@ -13,6 +14,7 @@ app.use(fileUpload({
 
 //Routes
 app.use(productsRoutes)
+app.use(clientRoutes)
 
 
 export default app;
